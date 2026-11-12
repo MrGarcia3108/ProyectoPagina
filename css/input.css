@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+    --color-azul-noche: #14213D;
+    --color-crema: #FAF6EF;
+    --color-verde-ruta: #1E7A4F;
+}
+
+@layer components {
+    .bloque {
+        @apply mb-6 rounded-lg bg-white p-6 shadow-sm;
+    }
+
+    .titulo-seccion {
+        @apply mb-4 border-b-4 border-verde-ruta pb-2 text-2xl font-bold text-verde-ruta;
+    }
+
+    .celda {
+        @apply border border-azul-noche/20 px-4 py-2;
+    }
+}
