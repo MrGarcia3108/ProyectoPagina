@@ -18,4 +18,11 @@
     .celda {
         @apply border border-azul-noche/20 px-4 py-2;
     }
+    .boton-contacto {
+        @apply inline-block rounded-lg border-2 border-white px-4 py-2 font-semibold hover:bg-white hover:text-azul-noche;
+    }
+
+    .chip {
+        @apply rounded-full border border-azul-noche/20 bg-crema px-3 py-1 text-sm font-semibold;
+    }
 }

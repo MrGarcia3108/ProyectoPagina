@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hoja de vida de Sebastian Garcia Zapata, ingeniero en software.">
     <title>Hoja de vida - Sebastian Garcia Zapata</title>
     <link rel="stylesheet" href="css/output.css">
 </head>
 <body class="bg-crema text-azul-noche">
-
     <header class="bg-azul-noche py-8 text-white">
         <div class="mx-auto max-w-4xl px-4">
             <div class="flex flex-col items-center gap-6 text-center md:flex-row md:text-left">
@@ -15,44 +15,39 @@
                 <div>
                     <h1 class="text-3xl font-bold">Sebastian Garcia Zapata</h1>
                     <p class="mt-1 text-xl">Ingeniero en Software</p>
+                    <div class="mt-4 flex flex-wrap justify-center gap-3 md:justify-start">
+                        <a href="mailto:sebastiangz3108@gmail.com" class="boton-contacto">Escríbeme</a>
+                        <a href="https://github.com/MrGarcia3108/" target="_blank" rel="noopener noreferrer" class="boton-contacto">GitHub</a>
+                    </div>
                 </div>
             </div>
         </div>
     </header>
-
     <main class="mx-auto max-w-4xl px-4 py-6">
-
         <section class="bloque">
             <h2 class="titulo-seccion">Perfil profesional</h2>
+            <p class="mb-3">
+                Soy un joven proactivo, responsable y autónomo, capaz de trabajar tanto de
+                manera individual como en equipo. Cuento con conocimientos en JavaScript,
+                Python, Power BI, entre otros, siempre dispuesto a aprender nuevas tecnologías.
+            </p>
             <p>
-                Soy un joven proactivo, responsable y
-                autónomo, capaz de trabajar tanto
-                de manera individual como en
-                equipo. Cuento con conocimientos
-                en JavaScript, Python, Power BI y
-                entre otros, siempre dispuesto a
-                aprender nuevas tecnologías.
-                Soy técnico, tecnólogo en sistemas e
-                ingeniero de software. Poseo una
-                gran capacidad de aprendizaje y
-                una actitud orientada al crecimiento
-                profesional. Mi objetivo es desarrollar
-                proyectos y alcanzar grandes metas,
-                contribuyendo al éxito de cada
-                desafío.
+                Soy técnico, tecnólogo en sistemas e ingeniero de software. Poseo una gran
+                capacidad de aprendizaje y una actitud orientada al crecimiento profesional.
+                Mi objetivo es desarrollar proyectos y alcanzar grandes metas, contribuyendo
+                al éxito de cada desafío.
             </p>
         </section>
-
         <section class="bloque">
             <h2 class="titulo-seccion">Formación académica</h2>
             <div class="overflow-x-auto">
                 <table class="w-full border-collapse text-left">
                     <thead class="bg-azul-noche text-white">
                         <tr>
-                            <th class="celda">Institución</th>
-                            <th class="celda">Título / Programa</th>
-                            <th class="celda">Año</th>
-                            <th class="celda">Estado</th>
+                            <th scope="col" class="celda">Institución</th>
+                            <th scope="col" class="celda">Título / Programa</th>
+                            <th scope="col" class="celda">Año</th>
+                            <th scope="col" class="celda">Estado</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -64,13 +59,13 @@
                         </tr>
                         <tr class="even:bg-crema">
                             <td class="celda">TdeA</td>
-                            <td class="celda">Tecnica profesional en sistemas</td>
+                            <td class="celda">Técnica profesional en sistemas</td>
                             <td class="celda">2022</td>
                             <td class="celda">Finalizado</td>
                         </tr>
                         <tr class="even:bg-crema">
                             <td class="celda">TdeA</td>
-                            <td class="celda">Tecnologia en sistemas</td>
+                            <td class="celda">Tecnología en sistemas</td>
                             <td class="celda">2023</td>
                             <td class="celda">Finalizado</td>
                         </tr>
@@ -84,31 +79,31 @@
                 </table>
             </div>
         </section>
-
         <section class="bloque">
             <h2 class="titulo-seccion">Habilidades</h2>
             <div class="grid grid-cols-1 gap-6 md:grid-cols-2">
                 <div>
-                    <h3 class="mb-2 text-lg font-bold">Técnicas</h3>
-                    <ul class="list-disc space-y-1 pl-6">
-                        <li>HTML/CSS (básico)</li>
-                        <li>Git y GitHub</li>
-                        <li>JavaScript (básico)</li>
-                        <li>Alojamiento web (Cpanel)</li>
+                    <h3 class="mb-3 text-lg font-bold">Técnicas</h3>
+                    <ul class="flex flex-wrap gap-2">
+                        <li class="chip">HTML/CSS (básico)</li>
+                        <li class="chip">JavaScript (básico)</li>
+                        <li class="chip">Python</li>
+                        <li class="chip">Power BI</li>
+                        <li class="chip">Git y GitHub</li>
+                        <li class="chip">Alojamiento web (cPanel)</li>
                     </ul>
                 </div>
                 <div>
-                    <h3 class="mb-2 text-lg font-bold">Personales</h3>
-                    <ol class="list-decimal space-y-1 pl-6">
-                        <li>Responsabilidad</li>
-                        <li>Comunicación asertiva</li>
-                        <li>Capacidad de aprendizaje</li>
-                        <li>Trabajo en equipo</li>
-                    </ol>
+                    <h3 class="mb-3 text-lg font-bold">Personales</h3>
+                    <ul class="flex flex-wrap gap-2">
+                        <li class="chip">Responsabilidad</li>
+                        <li class="chip">Comunicación asertiva</li>
+                        <li class="chip">Capacidad de aprendizaje</li>
+                        <li class="chip">Trabajo en equipo</li>
+                    </ul>
                 </div>
             </div>
         </section>
-
         <section class="bloque">
             <h2 class="titulo-seccion">Idiomas</h2>
             <ul class="list-disc space-y-1 pl-6">
@@ -116,39 +111,32 @@
                 <li>Inglés: básico</li>
             </ul>
         </section>
-                <section class="bloque">
+        <section class="bloque">
             <h2 class="titulo-seccion">Referencias</h2>
             <div class="grid grid-cols-1 gap-6 md:grid-cols-2">
-
                 <article class="rounded-lg border border-azul-noche/20 p-4">
-                    <h3 class="text-lg font-bold">JUAN MANUEL OTALVARO PEREZ</h3>
-                    <p>Rol operaciones en vicepresidencia de tecnología gioti</p>
+                    <h3 class="text-lg font-bold">Juan Manuel Otalvaro Perez</h3>
+                    <p>Rol operaciones en vicepresidencia de tecnología GIOTI</p>
                     <p>Bancolombia</p>
-                    <p>Teléfono: <a href="3136481841" class="text-verde-ruta underline hover:no-underline">313 6481841</a></p>
                 </article>
 
                 <article class="rounded-lg border border-azul-noche/20 p-4">
-                    <h3 class="text-lg font-bold">MARIA ELENA BADAVID</h3>
-                    <p>Contadora publica</p>
-                    <p>Teléfono: <a href="3117700862" class="text-verde-ruta underline hover:no-underline">311 7700862</a></p>
+                    <h3 class="text-lg font-bold">Maria Elena Badavid</h3>
+                    <p>Contadora pública</p>
                 </article>
-
             </div>
         </section>
-                <section class="bloque">
+        <section class="bloque">
             <h2 class="titulo-seccion">Contacto</h2>
             <ul class="space-y-2">
                 <li><strong>Correo:</strong> <a href="mailto:sebastiangz3108@gmail.com" class="text-verde-ruta underline hover:no-underline">sebastiangz3108@gmail.com</a></li>
-                <li><strong>Celular:</strong> <a href="3053943180" class="text-verde-ruta underline hover:no-underline">3053943180</a></li>
+                <li><strong>Celular:</strong> <a href="tel:+573053943180" class="text-verde-ruta underline hover:no-underline">305 3943180</a></li>
                 <li><strong>GitHub:</strong> <a href="https://github.com/MrGarcia3108/" target="_blank" rel="noopener noreferrer" class="text-verde-ruta underline hover:no-underline">MrGarcia3108</a></li>
             </ul>
         </section>
-
     </main>
-
     <footer class="bg-azul-noche py-4 text-center text-white">
-        <p>Última actualización: octubre de 2026</p>
+        <p>Última actualización: noviembre de 2026</p>
     </footer>
-
 </body>
 </html>
