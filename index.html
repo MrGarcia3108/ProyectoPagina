@@ -9,7 +9,7 @@
 </head>
 <body class="bg-crema text-azul-noche">
     <header class="bg-azul-noche py-8 text-white">
-        <div class="mx-auto max-w-4xl px-4">
+        <div class="mx-auto max-w-5xl px-4">
             <div class="flex flex-col items-center gap-6 text-center md:flex-row md:text-left">
                 <img src="img/foto-perfil.jpg" alt="Foto de perfil" width="150" height="150" class="size-36 shrink-0 rounded-full border-4 border-white object-cover">
                 <div>
@@ -23,7 +23,7 @@
             </div>
         </div>
     </header>
-    <main class="mx-auto max-w-4xl px-4 py-6">
+    <main class="mx-auto max-w-5xl px-4 py-6">
         <section class="bloque">
             <h2 class="titulo-seccion">Perfil profesional</h2>
             <p class="mb-3">
@@ -82,26 +82,45 @@
         <section class="bloque">
             <h2 class="titulo-seccion">Habilidades</h2>
             <div class="grid grid-cols-1 gap-6 md:grid-cols-2">
-                <div>
-                    <h3 class="mb-3 text-lg font-bold">Técnicas</h3>
-                    <ul class="flex flex-wrap gap-2">
-                        <li class="chip">HTML/CSS (básico)</li>
-                        <li class="chip">JavaScript (básico)</li>
-                        <li class="chip">Python</li>
-                        <li class="chip">Power BI</li>
-                        <li class="chip">Git y GitHub</li>
-                        <li class="chip">Alojamiento web (cPanel)</li>
-                    </ul>
-                </div>
-                <div>
-                    <h3 class="mb-3 text-lg font-bold">Personales</h3>
-                    <ul class="flex flex-wrap gap-2">
-                        <li class="chip">Responsabilidad</li>
-                        <li class="chip">Comunicación asertiva</li>
-                        <li class="chip">Capacidad de aprendizaje</li>
-                        <li class="chip">Trabajo en equipo</li>
-                    </ul>
-                </div>
+
+                <article class="tarjeta-habilidad space-y-4">
+                    <p class="etiqueta-tarjeta">Perfil técnico</p>
+                    <h3 class="text-2xl font-bold">Técnicas</h3>
+                    <dl class="space-y-3">
+                        <div class="fila-dato">
+                            <dt class="dato-nombre">Lenguajes</dt>
+                            <dd class="chip">HTML/CSS (básico), JavaScript (básico), Python</dd>
+                        </div>
+                        <div class="fila-dato">
+                            <dt class="dato-nombre">Datos</dt>
+                            <dd class="chip">Power BI</dd>
+                        </div>
+                        <div class="fila-dato">
+                            <dt class="dato-nombre">Herramientas</dt>
+                            <dd class="chip">Git y GitHub</dd>
+                        </div>
+                        <div class="fila-dato">
+                            <dt class="dato-nombre">Alojamiento web</dt>
+                            <dd class="chip">cPanel</dd>
+                        </div>
+                    </dl>
+                </article>
+
+                <article class="tarjeta-habilidad space-y-4">
+                    <p class="etiqueta-tarjeta">Perfil personal</p>
+                    <h3 class="text-2xl font-bold">Personales</h3>
+                    <dl class="space-y-3">
+                        <div class="fila-dato">
+                            <dt class="dato-nombre">Actitud</dt>
+                            <dd class="chip">Responsabilidad, Capacidad de aprendizaje</dd>
+                        </div>
+                        <div class="fila-dato">
+                            <dt class="dato-nombre">Con otros</dt>
+                            <dd class="chip">Comunicación asertiva, Trabajo en equipo</dd>
+                        </div>
+                    </dl>
+                </article>
+
             </div>
         </section>
         <section class="bloque">
