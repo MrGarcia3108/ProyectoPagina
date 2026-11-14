@@ -4,6 +4,10 @@
     --color-azul-noche: #14213D;
     --color-crema: #EDE7E6;
     --color-verde-ruta: #1E7A4F;
+    --color-amarillo-farol: #EAB308;
+    --color-verde-claro: #EFFAF4; 
+    --color-gris-carbon: #111827;
+    --color-verde-gaseoso: #52665A; 
 }
 
 @layer components {
@@ -23,24 +27,19 @@
         @apply inline-block rounded-lg border-2 border-white px-4 py-2 font-semibold hover:bg-white hover:text-azul-noche;
     }
 
-   .tarjeta-habilidad {
-        @apply rounded-xl border-2 border-crema/30 bg-azul-noche p-6 text-white shadow-lg hover:border-amarillo-farol hover:shadow-2xl;
+    .tarjeta-habilidad {
+        @apply rounded-xl border-2 border-verde-ruta/20 bg-verde-claro p-6 text-gris-carbon shadow-sm transition-all duration-300 hover:border-amarillo-farol hover:shadow-md;
     }
 
     .etiqueta-tarjeta {
         @apply inline-block rounded-full bg-verde-ruta px-3 py-1 text-sm font-semibold uppercase tracking-widest text-white;
     }
 
-    .fila-dato {
-        @apply flex items-baseline justify-between gap-4;
-    }
-
     .dato-nombre {
-        @apply shrink-0 text-xs font-semibold uppercase tracking-widest text-crema/70;
+        @apply text-xs font-semibold uppercase tracking-widest text-verde-gaseoso;
     }
 
     .chip {
-        @apply rounded-full border border-azul-noche/20 bg-crema px-3 py-1 text-sm font-semibold;
+        @apply rounded-full border border-verde-ruta/30 bg-white px-3 py-1 text-sm font-medium text-gris-carbon shadow-2xs;
     }
-
 }
