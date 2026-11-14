@@ -11,13 +11,14 @@
     <header class="bg-azul-noche py-8 text-white">
         <div class="mx-auto max-w-5xl px-4">
             <div class="flex flex-col items-center gap-6 text-center md:flex-row md:text-left">
-                <img src="img/foto-perfil.jpg" alt="Foto de perfil" width="150" height="150" class="size-36 shrink-0 rounded-full border-4 border-white object-cover">
+                <img src="img/foto-perfil.jpg" alt="Foto de Sebastian Garcia Zapata" width="150" height="150" class="size-36 shrink-0 rounded-full border-4 border-white object-cover">
                 <div>
                     <h1 class="text-3xl font-bold">Sebastian Garcia Zapata</h1>
                     <p class="mt-1 text-xl">Ingeniero en Software</p>
                     <div class="mt-4 flex flex-wrap justify-center gap-3 md:justify-start">
                         <a href="https://wa.me/573053943180" target="_blank" rel="noopener noreferrer"  class="boton-contacto">Escríbeme</a>
                         <a href="https://github.com/MrGarcia3108/" target="_blank" rel="noopener noreferrer" class="boton-contacto">GitHub</a>
+                        <a href="/archivos/SEBASTIAN_GARCIA_ZAPATA.pdf" download class="boton-contacto">Descargar CV</a>
                     </div>
                 </div>
             </div>
@@ -82,43 +83,108 @@
         <section class="bloque">
             <h2 class="titulo-seccion">Habilidades</h2>
             <div class="grid grid-cols-1 gap-6 md:grid-cols-2">
-
+        
                 <article class="tarjeta-habilidad space-y-4">
                     <p class="etiqueta-tarjeta">Perfil técnico</p>
                     <h3 class="text-2xl font-bold">Técnicas</h3>
-                    <dl class="space-y-3">
-                        <div class="fila-dato">
+                    <dl class="space-y-4">
+                        <div class="space-y-2">
                             <dt class="dato-nombre">Lenguajes</dt>
-                            <dd class="chip">HTML/CSS (básico), JavaScript (básico), Python</dd>
+                            <dd>
+                                <ul class="flex flex-wrap gap-2">
+                                    <li class="chip">HTML/CSS (básico)</li>
+                                    <li class="chip">JavaScript (básico)</li>
+                                    <li class="chip">Python</li>
+                                </ul>
+                            </dd>
                         </div>
-                        <div class="fila-dato">
+                        <div class="space-y-2">
                             <dt class="dato-nombre">Datos</dt>
-                            <dd class="chip">Power BI</dd>
+                            <dd>
+                                <ul class="flex flex-wrap gap-2">
+                                    <li class="chip">Power BI</li>
+                                </ul>
+                            </dd>
                         </div>
-                        <div class="fila-dato">
+                        <div class="space-y-2">
                             <dt class="dato-nombre">Herramientas</dt>
-                            <dd class="chip">Git y GitHub</dd>
+                            <dd>
+                                <ul class="flex flex-wrap gap-2">
+                                    <li class="chip">Git y GitHub</li>
+                                    <li class="chip">Wordpress</li>
+                                    <li class="chip">Moodle</li>
+                                    <li class="chip">Unity</li>
+                                </ul>
+                            </dd>
                         </div>
-                        <div class="fila-dato">
+                        <div class="space-y-2">
                             <dt class="dato-nombre">Alojamiento web</dt>
-                            <dd class="chip">cPanel</dd>
+                            <dd>
+                                <ul class="flex flex-wrap gap-2">
+                                    <li class="chip">cPanel</li>
+                                </ul>
+                            </dd>
                         </div>
                     </dl>
                 </article>
-
+        
                 <article class="tarjeta-habilidad space-y-4">
                     <p class="etiqueta-tarjeta">Perfil personal</p>
                     <h3 class="text-2xl font-bold">Personales</h3>
-                    <dl class="space-y-3">
-                        <div class="fila-dato">
+                    <dl class="space-y-4">
+                        <div class="space-y-2">
                             <dt class="dato-nombre">Actitud</dt>
-                            <dd class="chip">Responsabilidad, Capacidad de aprendizaje</dd>
+                            <dd>
+                                <ul class="flex flex-wrap gap-2">
+                                    <li class="chip">Responsabilidad</li>
+                                    <li class="chip">Capacidad de aprendizaje</li>
+                                </ul>
+                            </dd>
                         </div>
-                        <div class="fila-dato">
+                        <div class="space-y-2">
                             <dt class="dato-nombre">Con otros</dt>
-                            <dd class="chip">Comunicación asertiva, Trabajo en equipo</dd>
+                            <dd>
+                                <ul class="flex flex-wrap gap-2">
+                                    <li class="chip">Comunicación asertiva</li>
+                                    <li class="chip">Trabajo en equipo</li>
+                                </ul>
+                            </dd>
                         </div>
                     </dl>
+                </article>
+        
+            </div>
+        </section>
+        <section class="bloque">
+            <h2 class="titulo-seccion">Proyectos</h2>
+            <div class="grid grid-cols-1 gap-6 md:grid-cols-2">
+
+                <article class="flex flex-col rounded-lg border border-azul-noche/20 p-4">
+                    <h3 class="text-lg font-bold">Rueda libre</h3>
+                    <p class="mt-1">Sitio web de alquiler de bicicletas de Rueda libre en Medellín.</p>
+                    <p class="mt-2 text-sm font-semibold">HTML, CSS, Bootstrap</p>
+                    <p class="mt-auto pt-3"><a href="https://github.com/MrGarcia3108/rueda-libre" target="_blank" rel="noopener noreferrer" class="text-verde-ruta underline hover:no-underline">Ver Rueda libre</a></p>
+                </article>
+
+                <article class="flex flex-col rounded-lg border border-azul-noche/20 p-4">
+                    <h3 class="text-lg font-bold">Rueda Nocturna</h3>
+                    <p class="mt-1">Complemento de alquiler de bicicletas de Medellin nocturna.</p>
+                    <p class="mt-2 text-sm font-semibold">HTML, Tailwind CSS</p>
+                    <p class="mt-auto pt-3"><a href="https://mrgarcia3108.github.io/rueda-libre/nocturna/index.html" target="_blank" rel="noopener noreferrer" class="text-verde-ruta underline hover:no-underline">Ver Rueda Nocturna</a></p>
+                </article>
+
+                <article class="flex flex-col rounded-lg border border-azul-noche/20 p-4">
+                    <h3 class="text-lg font-bold">Medellín Secreta</h3>
+                    <p class="mt-1">Catálogo de lugares para visitar de Medellín organizado por categorías.</p>
+                    <p class="mt-2 text-sm font-semibold">HTML, Tailwind CSS</p>
+                    <p class="mt-auto pt-3"><a href="https://github.com/Eligiusdev/Gran-Secreto" target="_blank" rel="noopener noreferrer" class="text-verde-ruta underline hover:no-underline">Ver Medellín Secreta</a></p>
+                </article>
+
+                <article class="flex flex-col rounded-lg border border-azul-noche/20 p-4">
+                    <h3 class="text-lg font-bold">START GAMING SECURITY</h3>
+                    <p class="mt-1">Pagina web, plataforma en moodle y videojuego con la intencion de enseñar a estudiantes sobre ciberseguridad.</p>
+                    <p class="mt-2 text-sm font-semibold">Wordpress, cPanel, Moodle, Unity</p>
+                    <p class="mt-auto pt-3"><a href="/archivos/Trabajo_de_grado.zip" download rel="noopener noreferrer" class="text-verde-ruta underline hover:no-underline">Descargar proyecto</a></p>
                 </article>
 
             </div>
@@ -149,7 +215,7 @@
             <h2 class="titulo-seccion">Contacto</h2>
             <ul class="space-y-2">
                 <li><strong>Correo:</strong> <a href="mailto:sebastiangz3108@gmail.com" class="text-verde-ruta underline hover:no-underline">sebastiangz3108@gmail.com</a></li>
-                <li><strong>Celular:</strong> <a href="https://wa.me/573053943180" target="_blank" rel="noopener noreferrer" class="text-verde-ruta underline hover:no-underline">305 3943180</a></li>
+                <li><strong>Celular:</strong> <a href="https://wa.me/573053943180" target="_blank" rel="noopener noreferrer" class="text-verde-ruta underline hover:no-underline">305 3943180 (WhatsApp)</a></li>
                 <li><strong>GitHub:</strong> <a href="https://github.com/MrGarcia3108/" target="_blank" rel="noopener noreferrer" class="text-verde-ruta underline hover:no-underline">MrGarcia3108</a></li>
             </ul>
         </section>
